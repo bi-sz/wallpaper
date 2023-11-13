@@ -38,15 +38,15 @@ export const TabIcon = (props)=>{
                 <Icon 
                     name={this.props.iconName} 
                     size={20} 
-                    color={'black'}/>
+                    color={props.iconColor}/>
             </Badge>
         )
     }
 
     return (
         <Icon 
-        name={this.props.iconName} 
+        name={props.iconName} 
         size={20} 
-        color={'black'}/>
+        color={props.iconColor}/>
     )
 }
